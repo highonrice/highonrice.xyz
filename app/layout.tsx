@@ -23,12 +23,11 @@ export default function RootLayout({
             <div className="flex justify-between h-16">
               <div className="flex">
                 <Link href="/" className="flex-shrink-0 flex items-center">
-                  <span className="text-xl font-bold">My Portfolio</span>
+                  <span className="text-xl font-bold">highonrice</span>
                 </Link>
               </div>
               <div className="flex items-center">
-                <Link href="/" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-200">Home</Link>
-                <Link href="/works" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-200">Works</Link>
+                <Link href="/toys" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-200">Toys</Link>
               </div>
             </div>
           </div>
